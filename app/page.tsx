@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { mockJobs, mockProfile } from "@/lib/mock-data";
 import { formatRelativeTime, formatSalary } from "@/lib/utils";
 
