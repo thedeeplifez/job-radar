@@ -84,12 +84,9 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  <Link
-                    href={`/jobs/${job.id}`}
-                    className="inline-flex items-center justify-center rounded-xl border border-blue-600 px-4 py-2 text-sm font-semibold text-blue-700 transition hover:bg-blue-50"
-                  >
-                    View Job
-                  </Link>
+                  <span className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-slate-100 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    Mock listing
+                  </span>
                 </div>
 
                 <div className="mt-4 grid gap-3 text-sm text-slate-600 sm:grid-cols-2">
@@ -116,14 +113,9 @@ export default function HomePage() {
                     <span className="rounded-full bg-slate-100 px-2 py-1">UAE exp: {job.uaeExperience}</span>
                   </div>
 
-                  <a
-                    href={job.applicationUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center justify-center rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-700"
-                  >
-                    Apply
-                  </a>
+                  <span className="inline-flex items-center justify-center rounded-xl border border-dashed border-slate-300 bg-slate-50 px-3 py-2 text-xs font-medium text-slate-500">
+                    Mock application link
+                  </span>
                 </div>
               </article>
             ))}
